@@ -56,7 +56,7 @@ with open("data/hanwang3_cc1.txt", "w") as output_file:
     
     
 # Save the CCLevelPack object as a DAT file using the existing function from cc_dat_utils
-output_dat_file = "data/hanwang3_cc1.dat"
+output_dat_file = "data/hanwang3_cc18.dat"
 cc_dat_utils.write_cc_level_pack_to_dat(cc_level_pack, output_dat_file)
 
 # Print confirmation message
